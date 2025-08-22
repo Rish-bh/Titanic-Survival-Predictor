@@ -8,20 +8,16 @@ A clear project structure is essential for reproducibility. This repository is o
 
 Titanic-Survival-Predictor/
 │
-├── data/                     # Folder for dataset(s)
-│   └── titanic.csv
+├── data/                     # (Optional) Place dataset files here
+│   └── Titanic.csv
 │
-├── notebooks/                # Jupyter notebooks
-│   └── Titanic_Survival_Predictor.ipynb
+├── notebooks/
+│   └── Titanic_Survival_Predictor.ipynb   # Your main notebook
 │
-├── src/                      # Python scripts (optional if you modularize code)
-│   ├── data_preprocessing.py
-│   ├── model.py
-│   └── utils.py
-│
-├── requirements.txt          # Dependencies
-├── README.md                 # Project overview & setup instructions
-└── .gitignore                # (Optional) Ignore unnecessary files
+├── requirements.txt          # List of Python dependencies
+├── README.md                 # Project description, setup, and usage
+└── .gitignore                # Ignore unnecessary files
+
 
 
 ## ⚙️ Setup Instructions
@@ -33,6 +29,9 @@ cd Titanic-Survival-Predictor
 
 2. Create and activate a virtual environment (Recommended):
 
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
 
 
 
