@@ -1,38 +1,44 @@
 🛳️ Titanic Survival Prediction
+
 This project uses machine learning to predict passenger survival on the Titanic based on the official passenger dataset. The analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and the training and evaluation of several classification models to find the best predictor.
 
 📂 Project Structure
+
 A clear project structure is essential for reproducibility. This repository is organized as follows:
 
-titanic_survival_predictor/
-├── data/
-│   └── Titanic-Dataset.csv       # The dataset used for training and testing
-├── notebooks/
-│   └── Titanic_Survival_Predictor.ipynb  # Jupyter Notebook with all analysis and modeling
-├── requirements.txt              # A list of all Python dependencies
-└── README.md                     # This documentation file
+Titanic-Survival-Predictor/
+│
+├── data/                     # Folder for dataset(s)
+│   └── titanic.csv
+│
+├── notebooks/                # Jupyter notebooks
+│   └── Titanic_Survival_Predictor.ipynb
+│
+├── src/                      # Python scripts (optional if you modularize code)
+│   ├── data_preprocessing.py
+│   ├── model.py
+│   └── utils.py
+│
+├── requirements.txt          # Dependencies
+├── README.md                 # Project overview & setup instructions
+└── .gitignore                # (Optional) Ignore unnecessary files
 
-⚙️ Setup and Installation
-To get this project running on your local machine, follow these steps.
 
-1. Clone the repository:
+## ⚙️ Setup Instructions
 
-git clone https://github.com/Rish-bh/titanic_survival_predictor.git
-cd titanic_survival_predictor
+### 1. Clone the Repository
+`bash
+git clone https://github.com/Rish-bh/Titanic-Survival-Predictor.git
+cd Titanic-Survival-Predictor
 
 2. Create and activate a virtual environment (Recommended):
-This keeps your project dependencies isolated.
-
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-# For Windows
-python -m venv venv
-.\venv\Scripts\activate
 
 
-3. Install the required libraries:
+
+
+
+
+4. Install the required libraries:
 This command reads the requirements.txt file and installs all the necessary packages.
 
 pip install -r requirements.txt
