@@ -1,10 +1,10 @@
-🛳️ Titanic Survival Prediction
+### 🛳️ Titanic Survival Predictor
 
-This project uses machine learning to predict passenger survival on the Titanic based on the official passenger dataset. The analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and the training and evaluation of several classification models to find the best predictor.
+- This project uses machine learning to predict passenger survival on the Titanic based on the official passenger dataset. The analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and the training and evaluation of several classification models to find the best predictor.
 ---
 📂 Project Structure
 
-A clear project structure is essential for reproducibility. This repository is organized as follows:
+- A clear project structure is essential for reproducibility. This repository is organized as follows:
 ```
 Titanic-Survival-Predictor/
 │
@@ -44,17 +44,17 @@ pip install -r requirements.txt
 ### 🚀 How to Run the Project
 - Once your environment is set up, you can run the analysis.
 
-1. Start the Jupyter Notebook server:
+## 1. Start the Jupyter Notebook server:
 - From your terminal in the project's root directory, execute:
 ```
 jupyter
 ```
-2. Open the notebook:
+## 2. Open the notebook:
 - Your default web browser will open. Navigate to the notebooks/ folder and click on
 ```
 Titanic_Survival_Predictor.ipynb.
 ```
-4. Run the analysis:
+## 3. Run the analysis:
 You can run all the cells in the notebook from top to bottom (Cell > Run All) to see the complete workflow, from data loading and visualization to model training and final predictions.
 
 ### 📌 Features
@@ -80,9 +80,10 @@ See requirements.txt for dependencies
 Improve model accuracy with advanced algorithms
 
 Deploy as a web app using Flask/Streamlit
+
 ---
-📊 Results Summary
-The analysis confirmed historical accounts and provided clear insights:
+### 📊 Results Summary
+- The analysis confirmed historical accounts and provided clear insights:
 
 * Gender: Being female was the single most important factor for survival.
 
