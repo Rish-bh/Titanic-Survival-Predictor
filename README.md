@@ -39,24 +39,47 @@ This command reads the `requirements.txt` file and installs all the necessary pa
 pip install -r requirements.txt
 ```
 ### 4. Place the dataset:
-Ensure you have the `Titanic-Dataset.csv` file inside the data/ directory.
+- Ensure you have the `Titanic-Dataset.csv` file inside the data/ directory.
 
 ### 🚀 How to Run the Project
-Once your environment is set up, you can run the analysis.
+- Once your environment is set up, you can run the analysis.
 
 1. Start the Jupyter Notebook server:
-From your terminal in the project's root directory, execute:
+- From your terminal in the project's root directory, execute:
 ```
 jupyter
 ```
 2. Open the notebook:
-Your default web browser will open. Navigate to the notebooks/ folder and click on
+- Your default web browser will open. Navigate to the notebooks/ folder and click on
 ```
 Titanic_Survival_Predictor.ipynb.
 ```
 4. Run the analysis:
 You can run all the cells in the notebook from top to bottom (Cell > Run All) to see the complete workflow, from data loading and visualization to model training and final predictions.
 
+### 📌 Features
+
+Data cleaning & preprocessing
+
+Feature engineering
+
+Model training & evaluation
+
+Prediction of survival
+
+
+### 🛠️ Requirements
+
+Python 3.8+
+
+See requirements.txt for dependencies
+
+
+### ✨ Future Work
+
+Improve model accuracy with advanced algorithms
+
+Deploy as a web app using Flask/Streamlit
 ---
 📊 Results Summary
 The analysis confirmed historical accounts and provided clear insights:
