@@ -1,8 +1,9 @@
 ### 🛳️ Titanic Survival Predictor
 
 - This project uses machine learning to predict passenger survival on the Titanic based on the official passenger dataset. The analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and the training and evaluation of several classification models to find the best predictor.
+
 ---
-📂 Project Structure
+### 📂 Project Structure
 
 - A clear project structure is essential for reproducibility. This repository is organized as follows:
 ```
