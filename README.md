@@ -79,7 +79,7 @@ Titanic_Survival_Predictor.ipynb.
 
 - Python 3.8+
 
-See requirements.txt for dependencies
+See  `requirements.txt` for dependencies
 
 ---
 ### ✨ Future Work
