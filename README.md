@@ -23,9 +23,10 @@ Titanic-Survival-Predictor/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-`bash
+```bash
 git clone https://github.com/Rish-bh/Titanic-Survival-Predictor.git
 cd Titanic-Survival-Predictor
+```
 
 2. Create and activate a virtual environment (Recommended):
 
