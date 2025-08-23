@@ -91,8 +91,8 @@ See requirements.txt for dependencies
 ### 📊 Results Summary
 - The analysis confirmed historical accounts and provided clear insights:
 
-* Gender: Being female was the single most important factor for survival.
+* **Gender**: Being female was the single most important factor for survival.
 
-* Passenger Class: First-class passengers had a significantly higher chance of survival compared to those in second and third class.
+* **Passenger Class**: First-class passengers had a significantly higher chance of survival compared to those in second and third class.
 
-* Model Performance: The Gradient Boosting Classifier achieved the highest accuracy among the models tested (Logistic Regression, Random Forest, SVM), making it the most reliable model for this prediction task.
+* **Model Performance**: The Gradient Boosting Classifier achieved the highest accuracy among the models tested (Logistic Regression, Random Forest, SVM), making it the most reliable model for this prediction task.
