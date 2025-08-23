@@ -13,20 +13,9 @@ Titanic-Survival-Predictor/
 │
 ├── notebooks/
 │   └── Titanic_Survival_Predictor.ipynb   # Your main notebook
-│
 ├── requirements.txt          # List of Python dependencies
 ├── README.md                 # Project description, setup, and usage
 └── .gitignore                # Ignore unnecessary files
-Titanic-Survival-Predictor/
-│── data/  # (Optional) Store dataset files like train.csv, test.csv
-|   └── Titanic.csv
-│── notebooks/                # Jupyter notebooks
-│   └── Titanic_Survival_Predictor.ipynb
-│── src/                      # Python scripts (preprocessing, training, evaluation)
-│── models/                   # Saved trained models (e.g., .pkl files)
-│── requirements.txt          # List of dependencies
-│── README.md                 # Project documentation
-│── .gitignore                # Ignore unnecessary files (e.g., pycache, .ipynb_checkpoints)
 ```
 
 ## ⚙️ Setup Instructions
@@ -37,23 +26,22 @@ git clone https://github.com/Rish-bh/Titanic-Survival-Predictor.git
 cd Titanic-Survival-Predictor
 ```
 
-2. Create and activate a virtual environment (Recommended):
+### 2. Create and activate a virtual environment (Recommended):
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 ```
 
-
-4. Install the required libraries:
-This command reads the requirements.txt file and installs all the necessary packages.
-
+### 3. Install the required libraries:
+This command reads the `requirements.txt` file and installs all the necessary packages.
+```
 pip install -r requirements.txt
+```
+### 4. Place the dataset:
+Ensure you have the `Titanic-Dataset.csv` file inside the data/ directory.
 
-4. Place the dataset:
-Ensure you have the Titanic-Dataset.csv file inside the data/ directory.
-
-🚀 How to Run the Project
+### 🚀 How to Run the Project
 Once your environment is set up, you can run the analysis.
 
 1. Start the Jupyter Notebook server:
