@@ -5,7 +5,7 @@ This project uses machine learning to predict passenger survival on the Titanic 
 📂 Project Structure
 
 A clear project structure is essential for reproducibility. This repository is organized as follows:
-
+```
 Titanic-Survival-Predictor/
 │
 ├── data/                     # (Optional) Place dataset files here
@@ -27,7 +27,7 @@ Titanic-Survival-Predictor/
 │── requirements.txt          # List of dependencies
 │── README.md                 # Project documentation
 │── .gitignore                # Ignore unnecessary files (e.g., pycache, .ipynb_checkpoints)
-
+```
 
 ## ⚙️ Setup Instructions
 
