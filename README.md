@@ -17,7 +17,16 @@ Titanic-Survival-Predictor/
 ├── requirements.txt          # List of Python dependencies
 ├── README.md                 # Project description, setup, and usage
 └── .gitignore                # Ignore unnecessary files
-
+Titanic-Survival-Predictor/
+│── data/  # (Optional) Store dataset files like train.csv, test.csv
+|   └── Titanic.csv
+│── notebooks/                # Jupyter notebooks
+│   └── Titanic_Survival_Predictor.ipynb
+│── src/                      # Python scripts (preprocessing, training, evaluation)
+│── models/                   # Saved trained models (e.g., .pkl files)
+│── requirements.txt          # List of dependencies
+│── README.md                 # Project documentation
+│── .gitignore                # Ignore unnecessary files (e.g., pycache, .ipynb_checkpoints)
 
 
 ## ⚙️ Setup Instructions
@@ -29,13 +38,11 @@ cd Titanic-Survival-Predictor
 ```
 
 2. Create and activate a virtual environment (Recommended):
-
+```bash
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
-
-
-
+```
 
 
 4. Install the required libraries:
