@@ -1,7 +1,7 @@
 🛳️ Titanic Survival Prediction
 
 This project uses machine learning to predict passenger survival on the Titanic based on the official passenger dataset. The analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and the training and evaluation of several classification models to find the best predictor.
-
+---
 📂 Project Structure
 
 A clear project structure is essential for reproducibility. This repository is organized as follows:
@@ -17,7 +17,7 @@ Titanic-Survival-Predictor/
 ├── README.md                 # Project description, setup, and usage
 └── .gitignore                # Ignore unnecessary files
 ```
-
+---
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -46,15 +46,18 @@ Once your environment is set up, you can run the analysis.
 
 1. Start the Jupyter Notebook server:
 From your terminal in the project's root directory, execute:
-
-jupyter notebook
-
+```
+jupyter
+```
 2. Open the notebook:
-Your default web browser will open. Navigate to the notebooks/ folder and click on Titanic_Survival_Predictor.ipynb.
-
-3. Run the analysis:
+Your default web browser will open. Navigate to the notebooks/ folder and click on
+```
+Titanic_Survival_Predictor.ipynb.
+```
+4. Run the analysis:
 You can run all the cells in the notebook from top to bottom (Cell > Run All) to see the complete workflow, from data loading and visualization to model training and final predictions.
 
+---
 📊 Results Summary
 The analysis confirmed historical accounts and provided clear insights:
 
