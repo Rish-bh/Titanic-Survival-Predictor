@@ -44,42 +44,42 @@ pip install -r requirements.txt
 ### 🚀 How to Run the Project
 - Once your environment is set up, you can run the analysis.
 
-## 1. Start the Jupyter Notebook server:
+#### 1. Start the Jupyter Notebook server:
 - From your terminal in the project's root directory, execute:
 ```
 jupyter
 ```
-## 2. Open the notebook:
+#### 2. Open the notebook:
 - Your default web browser will open. Navigate to the notebooks/ folder and click on
 ```
 Titanic_Survival_Predictor.ipynb.
 ```
-## 3. Run the analysis:
-You can run all the cells in the notebook from top to bottom (Cell > Run All) to see the complete workflow, from data loading and visualization to model training and final predictions.
+#### 3. Run the analysis:
+- You can run all the cells in the notebook from top to bottom (Cell > Run All) to see the complete workflow, from data loading and visualization to model training and final predictions.
 
 ### 📌 Features
 
-Data cleaning & preprocessing
+- Data cleaning & preprocessing
 
-Feature engineering
+- Feature engineering
 
-Model training & evaluation
+- Model training & evaluation
 
-Prediction of survival
+- Prediction of survival
 
 
 ### 🛠️ Requirements
 
-Python 3.8+
+- Python 3.8+
 
 See requirements.txt for dependencies
 
 
 ### ✨ Future Work
 
-Improve model accuracy with advanced algorithms
+- Improve model accuracy with advanced algorithms
 
-Deploy as a web app using Flask/Streamlit
+- Deploy as a web app using Flask/Streamlit
 
 ---
 ### 📊 Results Summary
