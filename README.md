@@ -26,21 +26,26 @@ git clone https://github.com/Rish-bh/Titanic-Survival-Predictor.git
 cd Titanic-Survival-Predictor
 ```
 
+---
 ### 2. Create and activate a virtual environment (Recommended):
-```bash
+```
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 ```
 
+---
 ### 3. Install the required libraries:
 This command reads the `requirements.txt` file and installs all the necessary packages.
 ```
 pip install -r requirements.txt
 ```
+
+---
 ### 4. Place the dataset:
 - Ensure you have the `Titanic-Dataset.csv` file inside the data/ directory.
 
+---
 ### 🚀 How to Run the Project
 - Once your environment is set up, you can run the analysis.
 
@@ -57,6 +62,7 @@ Titanic_Survival_Predictor.ipynb.
 #### 3. Run the analysis:
 - You can run all the cells in the notebook from top to bottom (Cell > Run All) to see the complete workflow, from data loading and visualization to model training and final predictions.
 
+---
 ### 📌 Features
 
 - Data cleaning & preprocessing
@@ -67,14 +73,14 @@ Titanic_Survival_Predictor.ipynb.
 
 - Prediction of survival
 
-
+---
 ### 🛠️ Requirements
 
 - Python 3.8+
 
 See requirements.txt for dependencies
 
-
+---
 ### ✨ Future Work
 
 - Improve model accuracy with advanced algorithms
